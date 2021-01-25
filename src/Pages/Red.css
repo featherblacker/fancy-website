@@ -1,0 +1,126 @@
+.Red {
+    scroll-snap-align: start;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 1920px;
+    height: 1080px;
+    background: #D34848 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.try-btn-container{
+    margin-bottom: 4%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+}
+
+.red-try-btn{
+    cursor: pointer;
+    margin-right: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 248px;
+    height: 62px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 79px;
+    opacity: 1;
+}
+
+.red-try-btn-text{
+    text-transform: uppercase;
+    display: block;
+    text-align: left;
+    font: normal normal bold 18px/23px Helvetica Neue;
+    letter-spacing: 1.8px;
+    color: #D1346E;
+    opacity: 1;
+}
+
+.content {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-direction: row;
+}
+
+.red-left {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 10%;
+}
+
+.red-right {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.red-title {
+    margin: 10px 0;
+    height: 88px;
+    text-align: left;
+    font: normal normal bold 74px/90px Helvetica Neue;
+    text-transform: uppercase;
+    letter-spacing: 7.4px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.red-description {
+    margin: 20px 0;
+    width: 100%;
+    text-align: left;
+    font: normal normal normal 51px/61px Helvetica Neue;
+    letter-spacing: 5.1px;
+    color: #0B0B0B;
+    opacity: 1;
+}
+
+.red-btn {
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 338px;
+    height: 81px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 79px;
+    opacity: 1;
+    cursor: pointer;
+    margin: 20px 0 5%;
+}
+
+.red-btn-text {
+    display: inline-block;
+    height: 27px;
+    font: normal normal bold 23px/28px Helvetica Neue;
+    letter-spacing: 2.3px;
+    color: #D1346E;
+    opacity: 1;
+}
+
+.right-speaker-container {
+    height: 20%;
+    cursor: pointer;
+}
+
+.left-speaker-container {
+    cursor: pointer;
+    height: 20%;
+    display: flex;
+    align-items: flex-end;
+}
+
+.left-speaker, .right-speaker {
+    width: 254px;
+    height: 397px;
+    opacity: 1;
+}

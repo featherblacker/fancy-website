@@ -1,0 +1,73 @@
+
+.Hero {
+    scroll-snap-align: start;
+    width: 1920px;
+    height: 1080px;
+    background: transparent url('../imgs/Main Landing page/Image 1.png') 0 0 no-repeat padding-box;
+    opacity: 1;
+}
+
+.slogan {
+    margin-top: 10%;
+    padding-bottom: 20px;
+    font: normal normal bold 65px/79px Helvetica Neue;
+    letter-spacing: 6.5px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.description {
+    padding-bottom: 40px;
+    display: inline-block;
+    width: 47%;
+    font: normal normal normal 32px/44px Helvetica Neue;
+    letter-spacing: 3.2px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.try-button {
+    cursor: pointer;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 284px;
+    height: 79px;
+    background: transparent linear-gradient(90deg, #1FE1E9 0%, #5E33D1 34%, #D34848 65%, #FFB33F 100%) 0% 0% no-repeat padding-box;
+    border-radius: 79px;
+    opacity: 1;
+}
+
+.try-it-now {
+    display: inline-block;
+    font: normal normal bold 23px/28px Helvetica Neue;
+    letter-spacing: 2.3px;
+    color: #000000;
+    opacity: 1;
+}
+.title{
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.slider {
+    margin-top: 13%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.slider-point {
+    margin: 5px;
+    border-radius: 50%;
+    width: 17px;
+    height: 17px;
+    /*background: #FFFFFF 0 0 no-repeat padding-box;*/
+    border: 1px solid #FFFFFF;
+    opacity: 1;
+}
